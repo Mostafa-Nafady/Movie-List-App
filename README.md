@@ -20,3 +20,5 @@ cancelAddMovieBtn.addEventListener('click', () => { closeAddModel(); inputsField
 Adds a click event listener to the element with the variable cancelAddMovieBtn. When the element is clicked, the functions closeAddModel and inputsFieldUpdate are called.
 confirmAddMovieBtn.addEventListener('click', addMovieDataHandeler)
 Adds a click event listener to the element with the variable confirmAddMovieBtn. When the element is clicked, the function addMovieDataHandeler is called.
+#### Note:
+The id property of the movieData object is assigned a value using Math.random(), which generates a random floating point number between 0 and 1. While this may produce a unique value, it is not guaranteed to be unique and may not be suitable as a unique identifier for the movie data object.
