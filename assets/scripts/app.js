@@ -95,7 +95,6 @@ const movieElementAddHandler= (title,imageUrl,rating,movieData)=>{
 const newLi=document.createElement('li'); // create new list which will collect movie data object
 newLi.classList.add('movie-element')
 newLi.innerHTML=`
-<h2>please Enter your Favourit Movie Data</h2>
 <div class="movie-element__image">
       <img src="${imageUrl}" alt="${title}">
     </div>
